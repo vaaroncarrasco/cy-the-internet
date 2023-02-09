@@ -3,15 +3,23 @@ import { ABTesting } from '../fixtures/examplesEndpoints.json';
 
 describe('Validate A/B page', () => {
 
-  beforeEach(() => {
-    cy.visit(ABTesting);
-  })
-
-  it('A/B page loads correctly', () => {
-    cy.get('h3').should('have.text', 'A/B Test Control');
-    cy.get('p').should('have.text', 'Also known as split testing. This is a way in which businesses are able to simultaneously test and learn different versions of a page to see which text and/or functionality works best towards a desired outcome (e.g. a user action such as a click-through).')
-    // Validate github fork img source
-    cy.get('img[src="/img/forkme_right_green_007200.png"]').should('be.visible');
-  })
-
+  it('Validate A/B testing with cookie', () => {
+    cy.visit('/abtest');
+    cy.log('Asserting the header test before adding cookie');
+    cy.contains('A/B Test').should('be.visible');
+    cy.log('Set Cookie').setCookie('optimizelyOptOut', 'true');
+    cy.log('Refresh the page').reload();
+    cy.log('Asserting the header test after adding cookie');
+    cy.contains('No A/B Test').should('be.visible');
+  });
+  it('Validate A/B testing with opt out URL', () => {
+    cy.visit('/abtest?optimizely_opt_out=true');
+    cy.log('Handle alert');
+    cy.on('window:alert', (alertText) => {
+      expect(alertText).eq(
+        'You have successfully opted out of Optimizely for this domain.',
+      );
+    });
+    cy.contains('No A/B Test').should('be.visible');
+  });
 })
