@@ -1,0 +1,180 @@
+{
+  "availableExamples": [
+    {
+      "href": "/abtest",
+      "content": "A/B Testing"
+    },
+    {
+      "href": "/add_remove_elements/",
+      "content": "Add/Remove Elements"
+    },
+    {
+      "href": "/basic_auth",
+      "content": "Basic Auth"
+    },
+    {
+      "href": "/broken_images",
+      "content": "Broken Images"
+    },
+    {
+      "href": "/challenging_dom",
+      "content": "Challenging DOM"
+    },
+    {
+      "href": "/checkboxes",
+      "content": "Checkboxes"
+    },
+    {
+      "href": "/context_menu",
+      "content": "Context Menu"
+    },
+    {
+      "href": "/digest_auth",
+      "content": "Digest Authentication"
+    },
+    {
+      "href": "/disappearing_elements",
+      "content": "Disappearing Elements"
+    },
+    {
+      "href": "/drag_and_drop",
+      "content": "Drag and Drop"
+    },
+    {
+      "href": "/dropdown",
+      "content": "Dropdown"
+    },
+    {
+      "href": "/dynamic_content",
+      "content": "Dynamic Content"
+    },
+    {
+      "href": "/dynamic_controls",
+      "content": "Dynamic Controls"
+    },
+    {
+      "href": "/dynamic_loading",
+      "content": "Dynamic Loading"
+    },
+    {
+      "href": "/entry_ad",
+      "content": "Entry Ad"
+    },
+    {
+      "href": "/exit_intent",
+      "content": "Exit Intent"
+    },
+    {
+      "href": "/download",
+      "content": "File Download"
+    },
+    {
+      "href": "/upload",
+      "content": "File Upload"
+    },
+    {
+      "href": "/floating_menu",
+      "content": "Floating Menu"
+    },
+    {
+      "href": "/forgot_password",
+      "content": "Forgot Password"
+    },
+    {
+      "href": "/login",
+      "content": "Form Authentication"
+    },
+    {
+      "href": "/frames",
+      "content": "Frames"
+    },
+    {
+      "href": "/geolocation",
+      "content": "Geolocation"
+    },
+    {
+      "href": "/horizontal_slider",
+      "content": "Horizontal Slider"
+    },
+    {
+      "href": "/hovers",
+      "content": "Hovers"
+    },
+    {
+      "href": "/infinite_scroll",
+      "content": "Infinite Scroll"
+    },
+    {
+      "href": "/inputs",
+      "content": "Inputs"
+    },
+    {
+      "href": "/jqueryui/menu",
+      "content": "JQuery UI Menus"
+    },
+    {
+      "href": "/javascript_alerts",
+      "content": "JavaScript Alerts"
+    },
+    {
+      "href": "/javascript_error",
+      "content": "JavaScript onload event error"
+    },
+    {
+      "href": "/key_presses",
+      "content": "Key Presses"
+    },
+    {
+      "href": "/large",
+      "content": "Large & Deep DOM"
+    },
+    {
+      "href": "/windows",
+      "content": "Multiple Windows"
+    },
+    {
+      "href": "/nested_frames",
+      "content": "Nested Frames"
+    },
+    {
+      "href": "/notification_message",
+      "content": "Notification Messages"
+    },
+    {
+      "href": "/redirector",
+      "content": "Redirect Link"
+    },
+    {
+      "href": "/download_secure",
+      "content": "Secure File Download"
+    },
+    {
+      "href": "/shadowdom",
+      "content": "Shadow DOM"
+    },
+    {
+      "href": "/shifting_content",
+      "content": "Shifting Content"
+    },
+    {
+      "href": "/slow",
+      "content": "Slow Resources"
+    },
+    {
+      "href": "/tables",
+      "content": "Sortable Data Tables"
+    },
+    {
+      "href": "/status_codes",
+      "content": "Status Codes"
+    },
+    {
+      "href": "/typos",
+      "content": "Typos"
+    },
+    {
+      "href": "/tinymce",
+      "content": "WYSIWYG Editor"
+    }
+  ]
+}
